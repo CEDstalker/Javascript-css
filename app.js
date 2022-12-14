@@ -26,10 +26,11 @@ const restaurants = [
 
 app.set('view engine', 'ejs');
 
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
+    const data = await getRestaurants()
     res.render('home.ejs', {
         title: "Accueil",
-        list: restaurants
+        list: data
     })
 })
 

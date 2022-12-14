@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@gitlab.com/theau.nicolas/env-front.git"
@@ -23,5 +22,6 @@
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "nodemon": "^2.0.20"
-  }
+  },
+  "type": "module"
 }

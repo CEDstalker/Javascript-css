@@ -1,0 +1,29 @@
+/*header orgarnisation*/
+header
+{
+    text-align: center;
+    text-decoration: none;
+}
+h1
+{
+    color: blue;
+}
+/*body organisation*/
+body 
+{
+    background-color: #8f98ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*footer organisation*/
+footer
+{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+}
+footer a:hover 
+{
+    background-color: aqua;
+    text-decoration: none;
+}

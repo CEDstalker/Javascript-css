@@ -1,0 +1,20 @@
+/*body organisation*/
+body 
+{
+    background-color: #8f98ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header orgarnisation*/
+header
+{
+    text-align: center;
+    text-decoration: none;
+}
+/*footer organisation*/
+footer
+{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+}

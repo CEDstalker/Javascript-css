@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style_resto.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        <% for(var i = 0; i < list.length; i++ ) { %>
-            <%= list[i].attributes.name %>
-        <% } %>
-    </h1>
+    <header>
+        <h1>Les Restaurants :</h1>
+    </header>
+    <hr>
+    <main>
+        <h3>
+            <% for(var i = 0; i < list.length; i++ ) { %>
+                <ul class="resto">
+                    <li class="box">
+                        <a href="/restaurant?id=<%= list[i].id %>"><%= list[i].attributes.name %></a>
+                    </li>
+                </ul>  
+            <% } %>
+        </h3>
+    </main>
+    <hr>
+    <footer>
+        <a href="/about">About the Web site</a>
+    </footer>
 </body>
 </html>
